@@ -8,7 +8,7 @@
 
 - GitHub 계정: **minkwan8048-lgtm** (game-records와 동일 계정)
 - Git 설치 완료
-- `_sync_pdfs.py` 한 번 실행하여 `assets/pdfs/`에 PDF 5종 들어있음
+- `_sync_pdfs.py` 한 번 실행하여 `assets/pdfs/`에 PDF 6종 들어있음
 
 ---
 
@@ -120,7 +120,7 @@ GitHub Pages는 푸시 후 1~2분 내 자동 갱신.
 두 사이트는 **별개 저장소**로 운영:
 
 - `https://minkwan8048-lgtm.github.io/game-records/` — 본인 플레이 게임 이력
-- `https://minkwan8048-lgtm.github.io/portfolio/` — 이직 패키지 PDF 5종
+- `https://minkwan8048-lgtm.github.io/portfolio/` — 이직 패키지 PDF 6종
 
 이력서에는 두 URL이 모두 포함됨 (PLAYED GAME 섹션의 게임 기록지 + 추후 portfolio 사이트 추가 검토).
 현재 portfolio-hub 사이트에서는 게임 기록지 링크 미노출 (사용자 결정, 2026-05-10).
