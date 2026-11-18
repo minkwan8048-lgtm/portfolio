@@ -1,5 +1,5 @@
 """
-final/ 의 PDF 6종을 portfolio-hub/assets/pdfs/ 로 동기화한다.
+final/ 의 PDF 7종을 portfolio-hub/assets/pdfs/ 로 동기화한다.
 
 자소서·경력기술서·이력서·PPT가 신규 빌드되어 final/에 입주할 때 실행.
 파일명은 portfolio-hub 사이트 카드와 매핑되도록 영문 슬러그로 변환한다.
@@ -26,6 +26,7 @@ MAP = [
     (re.compile(r"^4\..*보스몬스터.*\.pdf$"), "boss.pdf"),
     (re.compile(r"^5\..*디멘션.*\.pdf$"), "dimension.pdf"),
     (re.compile(r"^6\..*어비스.*\.pdf$"), "abyss.pdf"),
+    (re.compile(r"^7\..*워토체스.*\.pdf$"), "wartochess.pdf"),
 ]
 
 
@@ -44,8 +45,8 @@ def main() -> int:
                 new_names[name] = slug
                 break
 
-    if len(new_names) != 6:
-        print(f"[WARN] _final/에서 6종 PDF를 찾지 못함 (발견: {len(new_names)})")
+    if len(new_names) != 7:
+        print(f"[WARN] _final/에서 7종 PDF를 찾지 못함 (발견: {len(new_names)})")
         for k, v in new_names.items():
             print(f"  - {k} → {v}")
 
